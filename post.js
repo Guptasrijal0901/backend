@@ -6,7 +6,6 @@ arr.use(express.json());
 arr.post("/api/submit", (req, res)=>{
     
     console.log(req.body);
-
     const newobject= {
         username: req.body.name,
         userbatch: req.body.batch,
